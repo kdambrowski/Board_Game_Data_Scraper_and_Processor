@@ -6,13 +6,9 @@ This project is a Python-based web scraper and data processor for board game inf
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
-* [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Usage](#usage)
-* [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
 
 ## General Information
 
@@ -21,8 +17,8 @@ This project aims to solve the problem of collecting detailed board game data fr
 ## Technologies Used
 
 - Python 3.8
-- Pandas
-- BeautifulSoup (bs4)
+- Pandas 1.5.3
+- BeautifulSoup (bs4) 4.11.2
 - urllib
 - re (Regular Expressions)
 - JSON
@@ -39,13 +35,25 @@ This project aims to solve the problem of collecting detailed board game data fr
 - Prepares a DataFrame from a dictionary of game data.
 - Converts and replaces decimal separators in numeric columns for Google Sheets compatibility.
 
-## Screenshots
-
-[Include screenshots or visual aids if applicable.]
-
 ## Setup
 
 To run this project, you need Python 3.8 or later. Clone the repository and install the required libraries:
 
 ```bash
 pip install pandas beautifulsoup4
+
+## Usage
+To use this project, follow these steps:
+1. Clone the repository to your local machine.
+2. Install the required libraries (see the Setup section).
+3. Set your data in Setting section
+BGG_USER_COLLECTION_URL = _URL TO COLLECTION THAT WANT TO SCRAPED DATA_
+CSV_DESTINATION_PATH = _DESTINATION WHERE YOUR CSV FILE SHOULD BE SAVED_
+4. Run the Python scripts to scrape and process board game data.
+5. Customize the scripts and functions according to your requirements.
+
+## Project Status
+The project is complete and actively maintained. Updates and improvements may be added in the future.
+
+## Acknowledgements
+This project was inspired by the need for accessible and well-structured board game data for analysis and research. Many thanks to the open-source community and contributors who make projects like this possible.
