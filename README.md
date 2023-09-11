@@ -41,7 +41,7 @@ To run this project, you need Python 3.8 or later. Clone the repository and inst
 
 ```bash
 pip install pandas beautifulsoup4
-
+```
 ## Usage
 To use this project, follow these steps:
 1. Clone the repository to your local machine.
